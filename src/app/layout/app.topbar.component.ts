@@ -9,6 +9,7 @@ import { LayoutService } from "./service/app.layout.service";
 export class AppTopBarComponent {
 
     items!: MenuItem[];
+    checked: boolean = false;
 
     @ViewChild('menubutton') menuButton!: ElementRef;
 
